@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 55px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky {
+    background: #2980B9;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+.heading h2 {
+    font-weight: 600;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.banner {
+    position: relative;
+    min-height: 45vw;
+    background: url(img/mark-basarab-1OtUkD_8svc-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .textbox h2 {
+    font-size: 3em;
+    margin-left: 50px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.banner .textbox h2 span {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.banner .btn {
+    position: relative;
+    background: #2980B9;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.banner .textbox h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.about .content {
+    display: flex;
+    justify-content: space-between;
+}
+.content-box {
+    padding-right: 30px;
+}
+.content-box h3 {
+    font-size: 24px;
+    margin: 0 20px 20px 50px;
+}
+.w50 {
+    min-width: 50%;
+}
+img {
+    max-width: 100%;
+}
+.content p {
+    max-width: auto;
+    max-height: 400px;
+    margin: 0 20px 20px 50px;
+}
+.content-services {
+    display: flex;
+    padding: 0 50px 0 50px;
+}
+.services {
+    background: #111;
+    margin-top: 100px;
+}
+.heading.white {
+    color: #fff;
+    padding: 20px;
+}
+
+
+

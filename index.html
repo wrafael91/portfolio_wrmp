@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WRMP | Web Development</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">WRMP</a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="textbox">
+            <h2>Hi! I'm<br><span>William Manchabajoy</span>
+            <h3>I'm a Front-End Web Developer</h3>
+            <a href="#" class="btn">Know More</a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="content-box w50">
+                <h3>Looking for new challenges</h3>
+                <p>My name is William Manchabajoy, I'm 30 years old, I was born in Cali, Colombia.
+                    I like to read and to do some sport. I'm getting started on web development, although,
+                    I've spent some years in university studying engineering, but it really helped me 
+                    to realize the amazing opportunity technology and software development is about. 
+                    That's the reason why I signed up in a bootcamp in <span><a href="https://www.makeitreal.camp">'Make It Real'</a></span>, a startup company in 
+                    which I've learned programming languages like HTML, CSS and Javascript, among others.
+                    <br><br>
+                    I like the most to discover new things and solving out problems, therefore, by doing
+                    coding and interacting on different technologies I've a got a better understanding
+                    on how things are going on each day and what is the role we play and what is society demanding on
+                    current time. 
+                    </p>
+            </div>
+            <div class="w50">
+                <img src="img/harrison-moore-pNuBdhn8vKU-unsplash.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+        </div>
+        <div class="content-services">
+            <div class="services-box">
+              <img src="img/website.png">
+              <h2>Web Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="services-box">
+              <img src="img/website.png">
+              <h2>Web Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="services-box">
+              <img src="img/website.png">
+              <h2>Web Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="services-box">
+                <img src="img/website.png">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="services-box">
+                <img src="img/website.png">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="services-box">
+                <img src="img/website.png">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            let header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
