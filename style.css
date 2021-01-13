@@ -46,7 +46,9 @@ header ul li a {
     color: #fff;
     text-decoration: none;
 }
-
+.about {
+    margin-bottom: 70px;
+}
 .heading {
     width: 100%;
     text-align: center;
@@ -60,7 +62,7 @@ header ul li a {
 }
 .banner {
     position: relative;
-    min-height: 45vw;
+    min-height: 47vw;
     background: url(img/mark-basarab-1OtUkD_8svc-unsplash.jpg);
     background-size: cover;
     display: flex;
@@ -78,7 +80,7 @@ header ul li a {
     font-size: 1.2em;
     font-weight: 700;
 }
-.banner .btn {
+.btn {
     position: relative;
     background: #2980B9;
     display: inline-block;
@@ -97,7 +99,7 @@ header ul li a {
     font-weight: 500;
     margin-left: 50px;
 }
-.about .content {
+.content {
     display: flex;
     justify-content: space-between;
 }
@@ -121,16 +123,135 @@ img {
 }
 .content-services {
     display: flex;
-    padding: 0 50px 0 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 0 40px 0;
 }
 .services {
     background: #111;
-    margin-top: 100px;
 }
 .heading.white {
     color: #fff;
-    padding: 20px;
+    padding: 5px;
 }
-
-
-
+.services .content-services .services-box {
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.services .content-services .services-box:hover {
+    background: #2980B9;
+}
+.services .content-services .services-box img {
+    max-width: 80px;
+    filter: invert(1);
+}
+.services .content-services .services-box h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.work {
+    padding: 5px;
+}
+.work .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work .content .work-box {
+    width: 50%;
+    padding: 20px 30px 20px 30px;
+}
+.work .content .work-box img {
+    max-width: 100%;
+}
+.btn1 {
+    position: relative;
+    background: #2980B9;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.testimonial {
+    background: #f7f7f7;
+    padding: 20px 20px 50px 20px;
+}
+.testimonial .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.testimonial .content .testimonial-box {
+    max-width: calc(50% - 40px);
+    padding: 20px 30px 20px 30px;
+    margin: 20px;
+    background: #2980B9;
+}
+.testimonial .content .testimonial-box p {
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+.testimonial .content .testimonial-box h3 {
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1em;
+}
+.testimonial .content .testimonial-box h3 span {
+    font-size: 14px;
+    font-weight: 400;
+}
+.contact {
+    background: #111;
+}
+.form-box {
+    min-width: 60%;
+}
+.form-box form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 400px 50px 400px;
+}
+.form-box form input, textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none;
+}
+.form-box form textarea {
+    min-height: 150px;
+}
+.form-box form input::placeholder,
+.form-box form textarea::placeholder {
+    color: #999;
+}
+.form-box form input[type='submit'] {
+    max-width: 100px;
+    background: #2980B9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.copyright {
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
