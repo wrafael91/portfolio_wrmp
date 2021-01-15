@@ -345,7 +345,7 @@ img {
         flex-direction: column;
     }
     .w50 {
-        margin-bottom: 20px;
+        margin: 20px auto;
     }
     .services .content .services-box {
         margin: 10px;
@@ -363,7 +363,15 @@ img {
         margin-top: 20px;
     }
     .social-media {
-        margin: 20px auto;
+        min-width: 18%;
+        margin: auto;
+    }
+    .social-media h3 {
+        text-align: center;
+    }
+    .form-box form input[type='submit'] {
+        display: block;
+        margin: auto;
     }
 }
 
