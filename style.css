@@ -206,10 +206,11 @@ img {
     font-weight: 500;
     margin-bottom: 10px;
 }
-.contact .social-media h4 {
+.contact .social-media h4 a {
     color: #fff;
     font-weight: 500;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 .form-box form input, textarea {
     margin-bottom: 20px;
@@ -235,6 +236,33 @@ img {
     letter-spacing: 2px;
     font-weight: 500;
     cursor: pointer;
+}
+#status {
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+#status.success {
+    background-color: rgb(27, 190, 30);
+    animation: status 10s ease forwards;
+}
+#status.error {
+    background-color: rgb(209, 43, 35);
+    animation: status 10s ease forwards;
+}
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
 }
 .social-media {
     min-width: 40%;
@@ -373,6 +401,9 @@ img {
         display: block;
         margin: auto;
     }
+    #status {
+        margin-top: 15px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -385,5 +416,8 @@ img {
     }
     section {
         padding: 100px 20px;
+    }
+    #status {
+        margin-top: 15px;
     }
 }
