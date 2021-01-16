@@ -371,6 +371,10 @@ img {
     }
     .content {
         flex-direction: column;
+        text-align: center;
+    }
+    .content-box {
+        padding-right: 0;
     }
     .w50 {
         margin: 20px auto;
@@ -396,6 +400,9 @@ img {
     }
     .social-media h3 {
         text-align: center;
+    }
+    .form-box {
+        margin-top: 20px;
     }
     .form-box form input[type='submit'] {
         display: block;
